@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box
+} 
+
+
+body {
+	font-family: sans-serif;
+    background-color: #ffffff;
+    font-family: sans-serif;
+    background-color: #ffffff;
+}
+
+
+.jumbotron {
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.row {
+    margin-bottom: 5px;
+}
+
+.time {
+    border-top: dotted 1px gray;
+    font-size: 18px;
+    text-align: right;
+    padding-top: 10px;
+}
+
+textarea {
+    resize: none;
+}
+
+.form-control {
+    border: none;
+}
+
+button {
+    height: 100%;
+    width: 150%;
+}
