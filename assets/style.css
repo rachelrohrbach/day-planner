@@ -7,17 +7,19 @@ body {
 	font-family: sans-serif;
     background-color: #ffffff;
     font-family: sans-serif;
-    background-color: #ffffff;
 }
 
 
 .jumbotron {
     text-align: center;
     background-color: #ffffff;
+    padding: 20px;
+    margin: 0 0 16px;
 }
 
 .row {
     margin-bottom: 5px;
+    position: relative;
 }
 
 .time {
@@ -25,17 +27,24 @@ body {
     font-size: 18px;
     text-align: right;
     padding-top: 10px;
+    padding-right: 0;
+    margin-right: 0;
+    position: relative;
 }
 
+form, 
 textarea {
     resize: none;
-}
-
-.form-control {
+    width: 101%;
     border: none;
+    height: 100%;
+    position: relative;
+    padding: 5px;
+    margin: 0 5px;
 }
 
 button {
     height: 100%;
-    width: 150%;
+    width: 100%;
+    position: relative;
 }
