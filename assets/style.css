@@ -12,14 +12,16 @@ body {
 
 .jumbotron {
     text-align: center;
-    background-color: #ffffff;
+    background-color: transparent;
     padding: 20px;
     margin: 0 0 16px;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
 }
 
 .row {
     margin-bottom: 5px;
-    position: relative;
 }
 
 .time {
@@ -29,22 +31,26 @@ body {
     padding-top: 10px;
     padding-right: 0;
     margin-right: 0;
-    position: relative;
 }
 
-form, 
 textarea {
     resize: none;
     width: 101%;
     border: none;
     height: 100%;
-    position: relative;
-    padding: 5px;
-    margin: 0 5px;
+    background: transparent;
+    color: #000000;
+    border-left: 1px solid black;
+    padding: 10px;
 }
 
 button {
-    height: 100%;
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #06aed5;
+    color: white;
     width: 100%;
-    position: relative;
-}
+    height: 100%;
+  }
+  
