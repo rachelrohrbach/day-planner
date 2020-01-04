@@ -8,7 +8,7 @@
 * [License](#license)
 
 ## General info
-This project is a  
+This project is a day planner app. It uses moment.js to display the current day in day of week, month, day, year format. It displays the hours of 9 am through 5 pm and allows you to enter your activities for each hour and save them to localStorage, so that when you refresh the page the saved entries are still there. The hours are color coded depended on their relation to the current hour. Past hour rows are gray, the current hour row is red, and future hour rows display with a green background. 
 	
 ## Technologies
 This project is created with: 
