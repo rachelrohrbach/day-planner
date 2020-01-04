@@ -32,7 +32,7 @@ $(document).ready(function () {
     }
     
     var keys = Object.keys(hoursOfTheDay);
-    for (var i = 0; i < keys.length - 1; i++){
+    for (var i = 0; i < keys.length; i++){
         setActivity(hoursOfTheDay, keys[i]);
     }
 
