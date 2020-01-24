@@ -21,7 +21,7 @@ This project is created with:
 
 ## Screenshot
 ![project screenshot](assets/schedule-screenshot.png)
-Link to my deployed github page: https://rachelrohrbach.github.io/homework-5/
+Link to my deployed github page: https://rachelrohrbach.github.io/day-planner/
 
 
 # Credits
